@@ -1,0 +1,15 @@
+steps\NavigationSteps.class
+pages\ProductPage.class
+util\TestProperties.class
+steps\AllFiltersSteps.class
+pages\HalperBase.class
+util\AllureReporter.class
+steps\BaseSteps.class
+steps\ScenarioSteps.class
+steps\ProductSteps.class
+pages\ElectroPage.class
+steps\ElectroSteps.class
+steps\MarketSteps.class
+pages\MarketPage.class
+pages\AllFiltersPage.class
+pages\NavigationHelper.class

@@ -1,0 +1,446 @@
+{
+  "uid" : "fa35d5d5b472e704",
+  "name" : "Проверка раздела Наушники",
+  "title" : "Проверка раздела Наушники",
+  "time" : {
+    "start" : 1549642662751,
+    "stop" : 1549642694400,
+    "duration" : 31649
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 26
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "357a1757f00dc3fb",
+    "name" : "Яндекс Маркет",
+    "title" : "Яндекс Маркет"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Маркет\"",
+    "title" : "Когда выбран пункт меню \"Маркет\"",
+    "time" : {
+      "start" : 1549642669840,
+      "stop" : 1549642672632,
+      "duration" : 2792
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMenuItem[Маркет]",
+      "title" : "выбран пункт меню Маркет",
+      "time" : {
+        "start" : 1549642670390,
+        "stop" : 1549642672629,
+        "duration" : 2239
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Выбран пункт меню Маркета \"Электроника\"",
+    "title" : "И Выбран пункт меню Маркета \"Электроника\"",
+    "time" : {
+      "start" : 1549642672632,
+      "stop" : 1549642676066,
+      "duration" : 3434
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMarketMenuItem[Электроника]",
+      "title" : "Выбран пункт меню Маркета Электроника",
+      "time" : {
+        "start" : 1549642672634,
+        "stop" : 1549642676065,
+        "duration" : 3431
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Выбран раздел \"Наушники\"",
+    "title" : "И Выбран раздел \"Наушники\"",
+    "time" : {
+      "start" : 1549642676066,
+      "stop" : 1549642680573,
+      "duration" : 4507
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectElectroMenuItem[Наушники]",
+      "title" : "Выбран раздел Наушники",
+      "time" : {
+        "start" : 1549642676069,
+        "stop" : 1549642680573,
+        "duration" : 4504
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Выполнен переход в расширенный поиск",
+    "title" : "И Выполнен переход в расширенный поиск",
+    "time" : {
+      "start" : 1549642680573,
+      "stop" : 1549642683260,
+      "duration" : 2687
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "chooseAllFilters",
+      "title" : "Выполнен переход в расширенный поиск",
+      "time" : {
+        "start" : 1549642680575,
+        "stop" : 1549642683260,
+        "duration" : 2685
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И поле цена От заполняется значением \"5000\"",
+    "title" : "И поле цена От заполняется значением \"5000\"",
+    "time" : {
+      "start" : 1549642683260,
+      "stop" : 1549642683478,
+      "duration" : 218
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillField[5000]",
+      "title" : "поле цена От заполняется значением 5000",
+      "time" : {
+        "start" : 1549642683261,
+        "stop" : 1549642683478,
+        "duration" : 217
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран производитель \"Beats\"",
+    "title" : "И выбран производитель \"Beats\"",
+    "time" : {
+      "start" : 1549642683480,
+      "stop" : 1549642683706,
+      "duration" : 226
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMakerItems[Beats]",
+      "title" : "выбран производитель Beats",
+      "time" : {
+        "start" : 1549642683482,
+        "stop" : 1549642683706,
+        "duration" : 224
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Выполнено нажатие на Показать подходящие",
+    "title" : "И Выполнено нажатие на Показать подходящие",
+    "time" : {
+      "start" : 1549642683706,
+      "stop" : 1549642686589,
+      "duration" : 2883
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "showResult",
+      "title" : "Выполнено нажатие на Показать подходящие",
+      "time" : {
+        "start" : 1549642683708,
+        "stop" : 1549642686589,
+        "duration" : 2881
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Выполненo нажатие на отображение списком",
+    "title" : "И Выполненo нажатие на отображение списком",
+    "time" : {
+      "start" : 1549642686589,
+      "stop" : 1549642686761,
+      "duration" : 172
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pushButtomByList",
+      "title" : "Выполненo нажатие на отображение списком",
+      "time" : {
+        "start" : 1549642686590,
+        "stop" : 1549642686761,
+        "duration" : 171
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Элементов на странице \"22\"",
+    "title" : "Тогда Элементов на странице \"22\"",
+    "time" : {
+      "start" : 1549642686762,
+      "stop" : 1549642688111,
+      "duration" : 1349
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkCountElements[22]",
+      "title" : "Элементов на странице 22",
+      "time" : {
+        "start" : 1549642686766,
+        "stop" : 1549642688111,
+        "duration" : 1345
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда запомнен \"0\"  элемен в списке",
+    "title" : "Когда запомнен \"0\"  элемен в списке",
+    "time" : {
+      "start" : 1549642688111,
+      "stop" : 1549642688188,
+      "duration" : 77
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "getFirstItemName[0]",
+      "title" : "запомнен 0 телевизор в списке",
+      "time" : {
+        "start" : 1549642688113,
+        "stop" : 1549642688187,
+        "duration" : 74
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И в поисковую строку введено запомненное значение",
+    "title" : "И в поисковую строку введено запомненное значение",
+    "time" : {
+      "start" : 1549642688188,
+      "stop" : 1549642689074,
+      "duration" : 886
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillField[Наушники Beats BeatsX Wireless]",
+      "title" : "В поле поиска введено значение Наушники Beats BeatsX Wireless",
+      "time" : {
+        "start" : 1549642688189,
+        "stop" : 1549642689073,
+        "duration" : 884
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Выполненo нажатие на поиск",
+    "title" : "И Выполненo нажатие на поиск",
+    "time" : {
+      "start" : 1549642689074,
+      "stop" : 1549642692493,
+      "duration" : 3419
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "pushButtomFind",
+      "title" : "Выполненo нажатие на поиск",
+      "time" : {
+        "start" : 1549642689075,
+        "stop" : 1549642692492,
+        "duration" : 3417
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Наименование товара соответствует запомненному значению",
+    "title" : "Тогда Наименование товара соответствует запомненному значению",
+    "time" : {
+      "start" : 1549642692493,
+      "stop" : 1549642693634,
+      "duration" : 1141
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "assertNameOfProduct[Наушники Beats BeatsX Wireless]",
+      "title" : "Наименование товара соответствует запомненному значению",
+      "time" : {
+        "start" : 1549642692494,
+        "stop" : 1549642693634,
+        "duration" : 1140
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "13964@LAPTOP-VA26MCEB.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-VA26MCEB"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "story",
+    "value" : "Проверка раздела Наушники"
+  } ],
+  "parameters" : [ ]
+}

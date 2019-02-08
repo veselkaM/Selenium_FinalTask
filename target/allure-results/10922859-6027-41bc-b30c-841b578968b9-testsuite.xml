@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1549642694724" stop="1549642722132" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс Маркет</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1549642694725" stop="1549642722131" status="passed">
+            <name>Проверка раздела Телевизоры</name>
+            <title>Проверка раздела Телевизоры</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1549642699779" stop="1549642701666" status="passed">
+                    <name>Когда выбран пункт меню "Маркет"</name>
+                    <title>Когда выбран пункт меню "Маркет"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642699779" stop="1549642701666" status="passed">
+                            <name>selectMenuItem[Маркет]</name>
+                            <title>выбран пункт меню Маркет</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549642701667" stop="1549642705017" status="passed">
+                    <name>И Выбран пункт меню Маркета "Электроника"</name>
+                    <title>И Выбран пункт меню Маркета "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642701667" stop="1549642705017" status="passed">
+                            <name>selectMarketMenuItem[Электроника]</name>
+                            <title>Выбран пункт меню Маркета Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549642705018" stop="1549642708907" status="passed">
+                    <name>И Выбран раздел "Телевизоры"</name>
+                    <title>И Выбран раздел "Телевизоры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642705019" stop="1549642708907" status="passed">
+                            <name>selectElectroMenuItem[Телевизоры]</name>
+                            <title>Выбран раздел Телевизоры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549642708907" stop="1549642711564" status="passed">
+                    <name>И Выполнен переход в расширенный поиск</name>
+                    <title>И Выполнен переход в расширенный поиск</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642708909" stop="1549642711563" status="passed">
+                            <name>chooseAllFilters</name>
+                            <title>Выполнен переход в расширенный поиск</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549642711564" stop="1549642711836" status="passed">
+                    <name>И поле цена От заполняется значением "20000"</name>
+                    <title>И поле цена От заполняется значением "20000"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642711564" stop="1549642711836" status="passed">
+                            <name>fillField[20000]</name>
+                            <title>поле цена От заполняется значением 20000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549642711836" stop="1549642712078" status="passed">
+                    <name>И выбран производитель "Samsung"</name>
+                    <title>И выбран производитель "Samsung"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642711837" stop="1549642712078" status="passed">
+                            <name>selectMakerItems[Samsung]</name>
+                            <title>выбран производитель Samsung</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549642712079" stop="1549642712348" status="passed">
+                    <name>И выбран производитель "LG"</name>
+                    <title>И выбран производитель "LG"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642712080" stop="1549642712347" status="passed">
+                            <name>selectMakerItems[LG]</name>
+                            <title>выбран производитель LG</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549642712348" stop="1549642716402" status="passed">
+                    <name>И Выполнено нажатие на Показать подходящие</name>
+                    <title>И Выполнено нажатие на Показать подходящие</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642712349" stop="1549642716402" status="passed">
+                            <name>showResult</name>
+                            <title>Выполнено нажатие на Показать подходящие</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549642716402" stop="1549642716462" status="passed">
+                    <name>Тогда Элементов на странице "48"</name>
+                    <title>Тогда Элементов на странице "48"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642716403" stop="1549642716461" status="passed">
+                            <name>checkCountElements[48]</name>
+                            <title>Элементов на странице 48</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549642716462" stop="1549642716513" status="passed">
+                    <name>Когда запомнен "0"  элемен в списке</name>
+                    <title>Когда запомнен "0"  элемен в списке</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642716463" stop="1549642716513" status="passed">
+                            <name>getFirstItemName[0]</name>
+                            <title>запомнен 0 телевизор в списке</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549642716514" stop="1549642717550" status="passed">
+                    <name>И в поисковую строку введено запомненное значение</name>
+                    <title>И в поисковую строку введено запомненное значение</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642716514" stop="1549642717549" status="passed">
+                            <name>fillField[Телевизор Samsung UE43N5500AU]</name>
+                            <title>В поле поиска введено значение Телевизор Samsung UE43N5500AU</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549642717550" stop="1549642720181" status="passed">
+                    <name>И Выполненo нажатие на поиск</name>
+                    <title>И Выполненo нажатие на поиск</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642717551" stop="1549642720181" status="passed">
+                            <name>pushButtomFind</name>
+                            <title>Выполненo нажатие на поиск</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549642720181" stop="1549642721381" status="passed">
+                    <name>Тогда Наименование товара соответствует запомненному значению</name>
+                    <title>Тогда Наименование товара соответствует запомненному значению</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549642720182" stop="1549642721381" status="passed">
+                            <name>assertNameOfProduct[Телевизор Samsung UE43N5500AU]</name>
+                            <title>Наименование товара соответствует запомненному значению</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Проверка раздела Телевизоры"/>
+                <label name="feature" value="Яндекс Маркет"/>
+                <label name="host" value="LAPTOP-VA26MCEB"/>
+                <label name="thread" value="13964@LAPTOP-VA26MCEB.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс Маркет"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
